@@ -1,0 +1,4 @@
+Mobs will have a chance to drop a lottery ticket. When used in a
+Extractinator, it has a chance to drop various items.
+
+Made with love and Emacs on GNU/Linux.
