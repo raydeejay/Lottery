@@ -1,4 +1,6 @@
 Mobs will have a chance to drop a lottery ticket. When used in a
 Extractinator, it has a chance to drop various items.
 
+See the homepage for a detailed prize table.
+
 Made with love and Emacs on GNU/Linux.

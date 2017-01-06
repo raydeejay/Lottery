@@ -3,3 +3,7 @@ Initial version
 
 0.1.1
 Added homepage
+
+0.1.2
+Added all the gems to the ores droplist
+Improved the source code
