@@ -7,3 +7,6 @@ Added homepage
 0.1.2
 Added all the gems to the ores droplist
 Improved the source code
+
+0.1.3
+Added hardmode prize table, with better prizes
