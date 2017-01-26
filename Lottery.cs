@@ -12,7 +12,7 @@ namespace Lottery {
 
     public class LotteryGlobalNPC : GlobalNPC {
         public override void NPCLoot(NPC npc) {
-            if (Main.rand.NextDouble() <= 0.1) {
+            if (Main.rand.NextDouble() <= 0.05) {
                 Item.NewItem((int) npc.position.X, (int) npc.position.Y,
                              npc.width, npc.height,
                              mod.ItemType("LotteryTicket"),
