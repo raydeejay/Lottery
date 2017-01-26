@@ -31,7 +31,7 @@ namespace Lottery.Items {
             this.percent = percent;
         }
 
-        public void AddChildren(params Prize[] children)
+        public PrizeNode AddChildren(params Prize[] children)
         {
             this.children.AddRange(children);
             return this;
@@ -162,7 +162,7 @@ namespace Lottery.Items {
         }
 
         public override void ExtractinatorUse(ref int resultType, ref int resultStack) {
-            Prize result = NPC.downedMoonlord ? hardmodePrizeTree.Roll();
+            Prize result = NPC.downedMoonlord ? hardmodePrizeTree.Roll()
                 : Main.hardMode ? hardmodePrizeTree.Roll()
                 : easymodePrizeTree.Roll();
             resultType = result.item;
