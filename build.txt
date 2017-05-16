@@ -4,5 +4,6 @@ displayName = Lottery
 hideCode = false
 hideResources = false
 includeSource = true
+buildIgnore = .*, .git/*, .gitattributes, .gitignore, obj/*, bin/*
 homepage = https://hackmd.io/s/ryWSTxjHg#lottery-for-terraria
 noCompile = true
