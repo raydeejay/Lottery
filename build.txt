@@ -1,7 +1,8 @@
 author = raydeejay
-version = 0.1.3
+version = 0.1.4
 displayName = Lottery
 hideCode = false
 hideResources = false
 includeSource = true
 homepage = https://hackmd.io/s/ryWSTxjHg#lottery-for-terraria
+noCompile = true
