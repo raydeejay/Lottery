@@ -10,3 +10,9 @@ Improved the source code
 
 0.1.3
 Added hardmode prize table, with better prizes
+
+0.1.4
+Improved the source code and lowered down some chances
+
+0.1.5
+Updated to TML 0.10

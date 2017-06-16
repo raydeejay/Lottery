@@ -23,14 +23,15 @@ namespace Lottery {
                                   new Prize (0.1, ItemID.PlatinumOre, 1, 10),
                                   new Prize (0.1, ItemID.DemoniteOre, 1, 10),
                                   new Prize (0.1, ItemID.CrimtaneOre, 1, 10));
+
             PrizeNode gemPrizes = new PrizeNode (0.2);
-            gemPrizes.AddChildren(new Prize (0.17, ItemID.Emerald, 1, 7),
-                                  new Prize (0.17, ItemID.Amethyst, 1, 7),
-                                  new Prize (0.16, ItemID.Sapphire, 1, 7),
-                                  new Prize (0.16, ItemID.Topaz, 1, 7),
-                                  new Prize (0.14, ItemID.Diamond, 1, 7),
-                                  new Prize (0.14, ItemID.Ruby, 1, 7),
-                                  new Prize (0.04, ItemID.Amber, 1, 7));
+            gemPrizes.AddChildren(new Prize (0.17, ItemID.Emerald, 1, 3),
+                                  new Prize (0.17, ItemID.Amethyst, 1, 3),
+                                  new Prize (0.16, ItemID.Sapphire, 1, 3),
+                                  new Prize (0.16, ItemID.Topaz, 1, 3),
+                                  new Prize (0.14, ItemID.Diamond, 1, 3),
+                                  new Prize (0.14, ItemID.Ruby, 1, 3),
+                                  new Prize (0.04, ItemID.Amber, 1, 3));
             orePrizes.AddChildren(gemPrizes);
 
             PrizeNode ammoPrizes = new PrizeNode (0.16);
@@ -46,9 +47,9 @@ namespace Lottery {
 
         public static PrizeNode[] BuildHardmode () {
             PrizeNode moneyPrizes = new PrizeNode (0.40);
-            moneyPrizes.AddChildren(new Prize (0.30, ItemID.SilverCoin, 1, 99),
-                                    new Prize (0.55, ItemID.GoldCoin, 1, 99),
-                                    new Prize (0.15, ItemID.PlatinumCoin, 1, 5));
+            moneyPrizes.AddChildren(new Prize (0.40, ItemID.SilverCoin, 1, 50),
+                                    new Prize (0.55, ItemID.GoldCoin, 1, 10),
+                                    new Prize (0.05, ItemID.PlatinumCoin, 1, 5));
 
             PrizeNode cratePrizes = new PrizeNode (0.25);
             cratePrizes.AddChildren(new Prize (0.20, ItemID.WoodenCrate, 1, 5),
@@ -64,6 +65,7 @@ namespace Lottery {
                                   new Prize (0.1, ItemID.PlatinumOre, 7, 20),
                                   new Prize (0.1, ItemID.DemoniteOre, 7, 20),
                                   new Prize (0.1, ItemID.CrimtaneOre, 7, 20));
+
             PrizeNode gemPrizes = new PrizeNode (0.2);
             gemPrizes.AddChildren(new Prize (0.17, ItemID.Emerald, 5, 15),
                                   new Prize (0.17, ItemID.Amethyst, 5, 15),

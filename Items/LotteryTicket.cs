@@ -7,9 +7,12 @@ using Terraria.ModLoader;
 
 namespace Lottery.Items {
     public class LotteryTicket : ModItem {
+        public override void SetStaticDefaults() {
+            DisplayName.SetDefault("Lottery Ticket");
+            Tooltip.SetDefault("A chance to win!");
+        }
+
         public override void SetDefaults() {
-            item.name = "Lottery Ticket";
-            item.toolTip = "A chance to win!";
             item.width = 32;
             item.height = 16;
             item.value = 0;
