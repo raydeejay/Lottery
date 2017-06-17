@@ -68,6 +68,7 @@
     <Compile Include="PrizeTree.cs" />
     <Compile Include="BuiltinTables.cs" />
     <Compile Include="Items/LotteryTicket.cs" />
+    <Compile Include="Items/BoosterPack.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -16,3 +16,6 @@ Improved the source code and lowered down some chances
 
 0.1.5
 Updated to TML 0.10
+
+0.1.6
+Added the Booster Pack, which propels the player upwards for a moment

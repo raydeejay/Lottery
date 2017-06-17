@@ -84,7 +84,13 @@ namespace Lottery {
                              npc.width, npc.height,
                              mod.ItemType("LotteryTicket"),
                              Main.rand.Next(1, 3));
+            } else if (Main.rand.NextDouble() <= 0.05) {
+                Item.NewItem((int) npc.position.X, (int) npc.position.Y,
+                             npc.width, npc.height,
+                             mod.ItemType("BoosterPack"),
+                             Main.rand.Next(1, 3));
             }
+
         }
     }
 }
