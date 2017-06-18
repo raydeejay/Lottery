@@ -19,3 +19,6 @@ Updated to TML 0.10
 
 0.1.6
 Added the Booster Pack, which propels the player upwards for a moment
+
+0.1.7
+Added Themed Crates and Expert Mode prize table

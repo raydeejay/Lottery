@@ -12,12 +12,12 @@ namespace Lottery {
             PrizeNode cratePrizes = new PrizeNode (0.25);
             cratePrizes.AddChildren(new Prize (0.50, ItemID.WoodenCrate, 1),
                                     new Prize (0.30, ItemID.IronCrate, 1),
-                                    new Prize (0.15, ItemID.GoldenCrate, 1)),
-                                    new Prize (0.01, ItemID.CorruptCrate, 1)),
-                                    new Prize (0.01, ItemID.CrimsonCrate, 1)),
-                                    new Prize (0.01, ItemID.DungeonCrate, 1)),
-                                    new Prize (0.01, ItemID.SkyCrate, 1)),
-                                    new Prize (0.01, ItemID.JungleCrate, 1));
+                                    new Prize (0.15, ItemID.GoldenCrate, 1),
+                                    new Prize (0.01, ItemID.CorruptFishingCrate, 1),
+                                    new Prize (0.01, ItemID.CrimsonFishingCrate, 1),
+                                    new Prize (0.01, ItemID.DungeonFishingCrate, 1),
+                                    new Prize (0.01, ItemID.FloatingIslandFishingCrate, 1),
+                                    new Prize (0.01, ItemID.JungleFishingCrate, 1));
 
             PrizeNode orePrizes = new PrizeNode (0.16);
             orePrizes.AddChildren(new Prize (0.1, ItemID.TinOre, 1, 10),
@@ -59,13 +59,13 @@ namespace Lottery {
             PrizeNode cratePrizes = new PrizeNode (0.25);
             cratePrizes.AddChildren(new Prize (0.20, ItemID.WoodenCrate, 1, 5),
                                     new Prize (0.45, ItemID.IronCrate, 1, 3),
-                                    new Prize (0.17, ItemID.GoldenCrate, 1)),
-                                    new Prize (0.03, ItemID.CorruptCrate, 1)),
-                                    new Prize (0.03, ItemID.CrimsonCrate, 1)),
-                                    new Prize (0.03, ItemID.DungeonCrate, 1)),
-                                    new Prize (0.03, ItemID.SkyCrate, 1)),
-                                    new Prize (0.03, ItemID.JungleCrate, 1)),
-                                    new Prize (0.03, ItemID.HallowedCrate, 1));
+                                    new Prize (0.17, ItemID.GoldenCrate, 1),
+                                    new Prize (0.03, ItemID.CorruptFishingCrate, 1),
+                                    new Prize (0.03, ItemID.CrimsonFishingCrate, 1),
+                                    new Prize (0.03, ItemID.DungeonFishingCrate, 1),
+                                    new Prize (0.03, ItemID.FloatingIslandFishingCrate, 1),
+                                    new Prize (0.03, ItemID.JungleFishingCrate, 1),
+                                    new Prize (0.03, ItemID.HallowedFishingCrate, 1));
 
             PrizeNode orePrizes = new PrizeNode (0.16);
             orePrizes.AddChildren(new Prize (0.1, ItemID.TinOre, 7, 20),
@@ -107,12 +107,12 @@ namespace Lottery {
             PrizeNode cratePrizes = new PrizeNode (0.25);
             cratePrizes.AddChildren(new Prize (0.20, ItemID.WoodenCrate, 1, 5),
                                     new Prize (0.35, ItemID.IronCrate, 1, 3),
-                                    new Prize (0.20, ItemID.GoldenCrate, 1)),
-                                    new Prize (0.05, ItemID.CorruptCrate, 1)),
-                                    new Prize (0.05, ItemID.CrimsonCrate, 1)),
-                                    new Prize (0.05, ItemID.DungeonCrate, 1)),
-                                    new Prize (0.05, ItemID.SkyCrate, 1)),
-                                    new Prize (0.05, ItemID.JungleCrate, 1)),
+                                    new Prize (0.20, ItemID.GoldenCrate, 1),
+                                    new Prize (0.05, ItemID.CorruptFishingCrate, 1),
+                                    new Prize (0.05, ItemID.CrimsonFishingCrate, 1),
+                                    new Prize (0.05, ItemID.DungeonFishingCrate, 1),
+                                    new Prize (0.05, ItemID.FloatingIslandFishingCrate, 1),
+                                    new Prize (0.05, ItemID.JungleFishingCrate, 1));
 
             PrizeNode orePrizes = new PrizeNode (0.16);
             orePrizes.AddChildren(new Prize (0.1, ItemID.TinOre, 4, 15),
