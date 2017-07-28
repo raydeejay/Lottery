@@ -40,6 +40,9 @@
     <Reference Include="FNA">
       <HintPath>/home/raydj/.local/share/Steam/steamapps/common/Terraria/FNA.dll</HintPath>
     </Reference>
+    <Reference Include="Relogic">
+      <HintPath>ReLogicLinux.dll</HintPath>
+    </Reference>
     <Reference Include="Terraria">
       <HintPath>/home/raydj/.local/share/Steam/steamapps/common/Terraria/Terraria.exe</HintPath>
     </Reference>
@@ -58,6 +61,9 @@
     <Reference Include="Microsoft.Xna.Framework.Xact">
       <HintPath>/home/raydj/.local/share/Steam/steamapps/common/Terraria/ModCompile/Microsoft.Xna.Framework.Xact.dll</HintPath>
     </Reference>
+    <Reference Include="Relogic">
+      <HintPath>ReLogic.dll</HintPath>
+    </Reference>
     <Reference Include="Terraria">
       <HintPath>/home/raydj/.local/share/Steam/steamapps/common/Terraria/ModCompile/tModLoaderWindows.exe</HintPath>
     </Reference>
@@ -69,10 +75,12 @@
     <Compile Include="BuiltinTables.cs" />
     <Compile Include="Items/LotteryTicket.cs" />
     <Compile Include="Items/BoosterPack.cs" />
+    <Compile Include="Items/ItoriusStar.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="build.txt" />
+    <Content Include="changelog.txt" />
     <Content Include="description.txt" />
   </ItemGroup>
 

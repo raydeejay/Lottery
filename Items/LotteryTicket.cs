@@ -6,6 +6,10 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Lottery.Items {
+    enum PuritySpiritMessageType : byte {
+        RollTicket
+    }
+
     public class LotteryTicket : ModItem {
         public override void SetStaticDefaults() {
             DisplayName.SetDefault("Lottery Ticket");

@@ -30,9 +30,11 @@ namespace Lottery.Items {
         {
             player.velocity.Y = (float) Main.rand.Next(-10, -7);
             Main.PlaySound(SoundID.DoubleJump);
+
             for (int i = Main.rand.Next(2, 7); i > 0; --i) {
                 Dust.NewDust(player.Center, 16, 16, DustID.Smoke);
             }
+
             return true;
         }
     }

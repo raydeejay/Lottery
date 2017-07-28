@@ -22,3 +22,6 @@ Added the Booster Pack, which propels the player upwards for a moment
 
 0.1.7
 Added Themed Crates and Expert Mode prize table
+
+0.1.8
+Added the Itorius' Star
